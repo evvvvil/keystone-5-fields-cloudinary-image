@@ -20,7 +20,7 @@
     "@emotion/core": "^10.1.1",
     "@iframely/embed.js": "^1.3.2",
     "@keystonejs/adapter-knex": "^13.3.2",
-    "@keystonejs/adapter-mongoose": "^11.2.2",
+    "@keystonejs/adapter-mongoose": "https://github.com/evvvvil/keystone-5-adapter-mongoose/tarball/main",
     "@keystonejs/fields": "^22.1.3",
     "@keystonejs/fields-content": "^9.1.2",
     "@primer/octicons-react": "^11.3.0",

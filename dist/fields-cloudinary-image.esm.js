@@ -109,7 +109,6 @@ class CloudinaryImage$1 extends File.implementation {
 
 const MongoCloudinaryImageInterface = File.adapters.mongoose;
 const KnexCloudinaryImageInterface = File.adapters.knex;
-const PrismaCloudinaryImageInterface = File.adapters.prisma;
 
 const RelationshipWrapper = _objectSpread(_objectSpread({}, Relationship), {}, {
   implementation: class extends Relationship.implementation {
@@ -227,8 +226,7 @@ const CloudinaryImage = {
   },
   adapters: {
     mongoose: MongoCloudinaryImageInterface,
-    knex: KnexCloudinaryImageInterface,
-    prisma: PrismaCloudinaryImageInterface
+    knex: KnexCloudinaryImageInterface
   },
   blocks: {
     image: ImageBlock // gallery: {

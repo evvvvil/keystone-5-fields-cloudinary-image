@@ -21,7 +21,7 @@
     "@iframely/embed.js": "^1.3.2",
     "@keystonejs/adapter-knex": "https://github.com/evvvvil/keystone-5-adapter-knex/tarball/main",
     "@keystonejs/adapter-mongoose": "https://github.com/evvvvil/keystone-5-adapter-mongoose/tarball/main",
-    "@keystonejs/fields": "^22.1.3",
+    "@keystonejs/fields": "https://github.com/evvvvil/keystone-5-fields/tarball/main",
     "@keystonejs/fields-content": "^9.1.2",
     "@primer/octicons-react": "^11.3.0",
     "image-extensions": "^1.1.0",
